@@ -1,5 +1,5 @@
 # hasher
-A command tool for easily calculate file or dictionary hash value.
+A command tool for easily calculating file or dictionary hash value.
 ## Get or Install
 For getting directly, download from release in this repo. Now Windows and Linux versions are available.
 
