@@ -12,5 +12,5 @@ Usage: hasher [path][-m [hash method]][-h][-q]
 ## Buffer Size
 You can ignore this part without impacting on your use.
 
-hasher uses $2^18$ bytes as the size of reading buffer. This comes from the following experiment.
+hasher uses 256KB(2^18) bytes as the size of reading buffer. This comes from the following experiment.
 ![](https://github.com/REFunction/hasher/blob/master/speed-test.png)
