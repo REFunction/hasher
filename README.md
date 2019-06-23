@@ -1,5 +1,13 @@
 # hasher
 A command tool for easily calculate file or dictionary hash value.
+## Get or Install
+For getting directly, download from release in this repo. Now Windows and Linux versions are available.
+For Windows, you can set environment variables of PATH. For linux, put hasher-linux into /usr/bin.
+For installing from source, install pyinstaller first and
+```
+pyinstaller -F hasher.py
+```
+Then find the binary file in dist dictionary.
 ## Usage
 ```
 Usage: hasher [path][-m [hash method]][-h][-q]
