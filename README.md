@@ -9,3 +9,8 @@ Usage: hasher [path][-m [hash method]][-h][-q]
 ```
 ## Demo
 ![](https://github.com/REFunction/hasher/blob/master/demo.png)
+## Buffer Size
+You can ignore this part without impacting on your use.
+
+hasher uses $2^18$ bytes as the size of reading buffer. This comes from the following experiment.
+![](https://github.com/REFunction/hasher/blob/master/speed-test.png)
